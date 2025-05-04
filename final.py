@@ -14,7 +14,7 @@ model_1 = tf.keras.models.load_model('bat.h5')
 conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='636396',
+            password='',
             database='tb_test_results_db'
         )
 cursor = conn.cursor()
