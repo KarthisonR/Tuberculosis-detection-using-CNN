@@ -76,7 +76,7 @@ def get_previous_tests(name, dob):
         # conn = mysql.connector.connect(
         #     host='localhost',
         #     user='root',
-        #     password='636396',
+        #     password='',
         #     database='tb_test_results_db'
         # )
         # cursor = conn.cursor()
@@ -101,7 +101,7 @@ def get_all_results_from_db():
         # conn = mysql.connector.connect(
         #     host='localhost',
         #     user='root',
-        #     password='636396',
+        #     password='',
         #     database='tb_test_results_db'
         # )
         # cursor = conn.cursor()
